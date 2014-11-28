@@ -10,7 +10,7 @@ LOCAL_MODULE:= libqsap_sdk
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_CFLAGS += -DSDK_VERSION=\"0.0.1.0\"
+LOCAL_CFLAGS += -DSDK_VERSION=\"0.0.1.0\" -fno-strict-aliasing
 
 LOCAL_COPY_HEADERS_TO := sdk/softap/include
 LOCAL_COPY_HEADERS := qsap_api.h
